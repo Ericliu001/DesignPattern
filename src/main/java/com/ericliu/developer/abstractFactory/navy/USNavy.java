@@ -5,10 +5,7 @@ import com.ericliu.developer.abstractFactory.shipyard.AmericanShipyard;
 
 public class USNavy extends Navy {
 
-    private BaseShip warship;
-
     public USNavy() {
-
         shipyard = new AmericanShipyard();
     }
 }

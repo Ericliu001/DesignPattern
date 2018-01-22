@@ -10,9 +10,9 @@ import com.ericliu.developer.abstractFactory.shipyard.Shipyard;
 public abstract class Navy {
 
     protected Shipyard shipyard;
-    protected BaseShip warship;
 
     public BaseShip orderWarship(Ship.ShipTypes type) {
+        BaseShip warship = null;
 
         switch (type) {
             case BATTLESHIP:
